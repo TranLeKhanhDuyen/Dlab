@@ -1,0 +1,29 @@
+image: node:14.18.1
+definitions:
+  caches:
+    npm: ~/.npm
+pipelines:
+  default:
+    - step:
+        name: Validate code
+        caches:
+          - npm
+        script:
+          - npm install
+  branches:
+    master:
+      - step:
+          image: atlassian/default-image:3
+          runs-on:
+            - self.hosted
+            - linux
+          script:
+            - ssh-keyscan -p 24 -H $SSH_SERVER_IP >> ~/.ssh/known_hosts
+            - apt-get update
+            - apt-get install zip
+            - npm install --global yarn
+            - git checkout master
+            - yarn && yarn build
+            - zip -r landing.zip build
+            - scp -P 24 landing.zip $SSH_SERVER_USER@$SSH_SERVER_IP:~/decentralab
+            - ssh $SSH_SERVER_USER@$SSH_SERVER_IP -p 24 'cd ~/decentralab && source deploy.sh'

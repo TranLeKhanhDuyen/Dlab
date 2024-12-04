@@ -1,0 +1,215 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2022-03-30 13:41+0700\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: en\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
+
+#: src/pages/Home/TabsContent/Home2.tsx
+msgid "\"It's better to regret what you have done than what you haven't\""
+msgstr "\"It's better to regret what you have done than what you haven't\""
+
+#: src/pages/Career/TabsContent/Career1.tsx
+msgid "100% motivation to push yourself to improve"
+msgstr "100% motivation to push yourself to improve"
+
+#: src/pages/Home/TabsContent/Home1.tsx
+msgid "100% motivation to push yourself to improve."
+msgstr "100% motivation to push yourself to improve."
+
+#: src/pages/Contact/TabsContent/Contact1.tsx
+msgid "160 Robinson Road, #14-04 Singapore Business Federation Centre, Singapore (068914)"
+msgstr "160 Robinson Road, #14-04 Singapore Business Federation Centre, Singapore (068914)"
+
+#: src/pages/Home/TabsContent/Home2.tsx
+msgid "Always hope & dream"
+msgstr "Always hope & dream"
+
+#: src/pages/Home/TabsContent/Home2.tsx
+msgid "Always searching & aiming for new knowledge"
+msgstr "Always searching & aiming for new knowledge"
+
+#: src/pages/Home/TabsContent/Home2.tsx
+msgid "Always thinking with Decentralized mindset"
+msgstr "Always thinking with Decentralized mindset"
+
+#: src/utils/errorHandler.ts
+msgid "An error occurs. Please try again"
+msgstr "An error occurs. Please try again"
+
+#: src/pages/Contact/TabsContent/Contact2.tsx
+#: src/pages/Contact/index.tsx
+msgid "Be Decentraler"
+msgstr "Be Decentraler"
+
+#: src/pages/Career/TabsContent/Career1.tsx
+msgid "Beside your salary, we will provide:"
+msgstr "Beside your salary, we will provide:"
+
+#: src/pages/Career/index.tsx
+#~ msgid "Career Tab 1"
+#~ msgstr "Career Tab 1"
+
+#: src/pages/Career/index.tsx
+#~ msgid "Career Tab 2"
+#~ msgstr "Career Tab 2"
+
+#: src/pages/Career/index.tsx
+#: src/pages/Career/index.tsx
+#~ msgid "Career Tab 3"
+#~ msgstr "Career Tab 3"
+
+#: src/pages/Contact/TabsContent/Contact1.tsx
+#: src/pages/Contact/index.tsx
+msgid "Company Info"
+msgstr "Company Info"
+
+#: src/pages/Home/TabsContent/Home2.tsx
+#: src/pages/Home/index.tsx
+msgid "Core Value"
+msgstr "Core Value"
+
+#: src/pages/Contact/TabsContent/Contact1.tsx
+msgid "DECENTRALAB PTE. LTD"
+msgstr "DECENTRALAB PTE. LTD"
+
+#: src/pages/Home/TabsContent/Home2.tsx
+msgid "Decentralized"
+msgstr "Decentralized"
+
+#: src/pages/Career/TabsContent/Career1.tsx
+msgid "Decentralized mindset"
+msgstr "Decentralized mindset"
+
+#: src/pages/Home/TabsContent/Home2.tsx
+msgid "Develop"
+msgstr "Develop"
+
+#: src/pages/Home/TabsContent/Home1.tsx
+msgid "Develop Decentralized Dream"
+msgstr "Develop Decentralized Dream"
+
+#: src/pages/Contact/TabsContent/Contact2.tsx
+msgid "Don't worry, we are ready to listen to you, if you also want to build a decentralized world like us!"
+msgstr "Don't worry, we are ready to listen to you, if you also want to build a decentralized world like us!"
+
+#: src/pages/Home/TabsContent/Home2.tsx
+msgid "Dream"
+msgstr "Dream"
+
+#: src/pages/Home/TabsContent/Home2.tsx
+msgid "Each person has a goal but always towards a destination"
+msgstr "Each person has a goal but always towards a destination"
+
+#: src/pages/Home/TabsContent/Home1.tsx
+msgid "Every day at work is a promising day."
+msgstr "Every day at work is a promising day."
+
+#: src/pages/Career/TabsContent/Career1.tsx
+msgid "Every day at work is a promissing day"
+msgstr "Every day at work is a promissing day"
+
+#: src/pages/Home/TabsContent/Home2.tsx
+msgid "Fail fast, learn faster"
+msgstr "Fail fast, learn faster"
+
+#: src/pages/Home/TabsContent/Home2.tsx
+msgid "Fall in love with Blockchain"
+msgstr "Fall in love with Blockchain"
+
+#: src/pages/Home/TabsContent/Home2.tsx
+msgid "Flat communication"
+msgstr "Flat communication"
+
+#: src/pages/Home/TabsContent/Home2.tsx
+msgid "Go big or go home"
+msgstr "Go big or go home"
+
+#: src/pages/Contact/TabsContent/Contact1.tsx
+msgid "Helicopter Building, Nguyen Van Linh Street, Da Nang City, Viet Nam"
+msgstr "Helicopter Building, Nguyen Van Linh Street, Da Nang City, Viet Nam"
+
+#: src/pages/Contact/TabsContent/Contact2.tsx
+msgid "Interested in our vision, but can't find a job description that's right for you?"
+msgstr "Interested in our vision, but can't find a job description that's right for you?"
+
+#: src/pages/Career/TabsContent/Career1.tsx
+#: src/pages/Career/index.tsx
+msgid "Introduction"
+msgstr "Introduction"
+
+#: src/pages/Home/TabsContent/Home.tsx
+#~ msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas condimentum, dui a auctor maximus, erat ligula lacinia magna, non venenatis justo eros mattis leo. In hac habitasse platea dictumst."
+#~ msgstr "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas condimentum, dui a auctor maximus, erat ligula lacinia magna, non venenatis justo eros mattis leo. In hac habitasse platea dictumst."
+
+#: src/pages/Home/TabsContent/Home4.tsx
+#: src/pages/Home/index.tsx
+msgid "Our Partners"
+msgstr "Our Partners"
+
+#: src/pages/Home/TabsContent/Home.tsx
+#: src/pages/Home/index.tsx
+#~ msgid "Our Products"
+#~ msgstr "Our Products"
+
+#: src/pages/Home/TabsContent/Home1.tsx
+msgid "Our Promise"
+msgstr "Our Promise"
+
+#: src/pages/Home/TabsContent/Home1.tsx
+msgid "Our Vision"
+msgstr "Our Vision"
+
+#: src/pages/Career/TabsContent/Career1.tsx
+msgid "Ready to train you on blockchain knowledge"
+msgstr "Ready to train you on blockchain knowledge"
+
+#: src/pages/Home/TabsContent/Home1.tsx
+msgid "Ready to train you on blockchain knowledge."
+msgstr "Ready to train you on blockchain knowledge."
+
+#: src/pages/Career/TabsContent/Career1.tsx
+msgid "Startup products based on Blockchain Technology"
+msgstr "Startup products based on Blockchain Technology"
+
+#: src/pages/Home/TabsContent/Home3.tsx
+#: src/pages/Home/index.tsx
+msgid "Tech Stack"
+msgstr "Tech Stack"
+
+#: src/pages/Career/TabsContent/Career1.tsx
+msgid "The workflow inspried by The Spotify Model"
+msgstr "The workflow inspried by The Spotify Model"
+
+#: src/pages/Career/TabsContent/Career1.tsx
+#: src/pages/Career/TabsContent/Career1.tsx
+msgid "WHO WE ARE?"
+msgstr "WHO WE ARE?"
+
+#: src/pages/Home/TabsContent/Home1.tsx
+msgid "We aim to become the best BAAS (Blockchain As A Service) company in Asia, with reasonable pricing, fast development time and high stability"
+msgstr "We aim to become the best BAAS (Blockchain As A Service) company in Asia, with reasonable pricing, fast development time and high stability"
+
+#: src/pages/Home/TabsContent/Home1.tsx
+msgid "We are a research and development Lab based on the decentralized technological platform of Blockchain, which includes DeFi, DApps, NFTs, and blockchain."
+msgstr "We are a research and development Lab based on the decentralized technological platform of Blockchain, which includes DeFi, DApps, NFTs, and blockchain."
+
+#: src/pages/Home/index.tsx
+msgid "Why Us?"
+msgstr "Why Us?"
+
+#: src/pages/Career/TabsContent/Career1.tsx
+msgid "Working location: Da Nang, Vietnam"
+msgstr "Working location: Da Nang, Vietnam"
+
+#: src/theme/Pagination/index.tsx
+msgid "You've read all!"
+msgstr "You've read all!"
