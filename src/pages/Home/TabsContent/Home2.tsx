@@ -37,12 +37,10 @@ const ProductWrapper = styled(Grid)`
   & ${ProductItemWrapper}:nth-child(even) {
     padding-right: 0;
   }
-  & ${ProductItemWrapper}:nth-child(1),
-  & ${ProductItemWrapper}:nth-child(2) {
+  & ${ProductItemWrapper}:is(:nth-child(1), :nth-child(2)) {
     padding-top: 0;
   }
-  & ${ProductItemWrapper}:nth-last-child(1),
-  & ${ProductItemWrapper}:nth-last-child(2) {
+  & ${ProductItemWrapper}:is(:nth-last-child(1), :nth-last-child(2)) {
     padding-bottom: 0;
     border-bottom: none;
   }
