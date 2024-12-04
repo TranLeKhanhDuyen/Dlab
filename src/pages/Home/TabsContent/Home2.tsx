@@ -2,8 +2,8 @@ import { Trans } from '@lingui/macro'
 import { Link } from 'react-router-dom'
 import styled from 'styled-components/macro'
 
+import copin_logo from 'assets/images/copin_logo.png'
 import daudit from 'assets/images/daudit-logo.svg'
-import home_product_1 from 'assets/images/home_product_1.png'
 import home_product_2 from 'assets/images/home_product_2.png'
 import truedrop from 'assets/images/truedrop-logo.png'
 import trustgem from 'assets/images/trustgem-logo.png'
@@ -12,7 +12,6 @@ import LargeHeading from 'components/common/LargeHeading'
 import { ListBodyTextWithTitle } from 'components/common/ListBodyText'
 import PublicTabContentContainer from 'components/common/PublicTabContentContainer'
 import Spacer from 'components/common/Spacer'
-// import TextWithLink from 'components/common/TextWithLink'
 import { Box, Grid, Image, Type } from 'theme/base'
 import ROUTES from 'utils/routes'
 
@@ -39,6 +38,7 @@ const ProductWrapper = styled(Grid)`
   }
   & ${ProductItemWrapper}:is(:nth-child(1), :nth-child(2)) {
     padding-top: 0;
+    border-right: none;
   }
   & ${ProductItemWrapper}:is(:nth-last-child(1), :nth-last-child(2)) {
     padding-bottom: 0;
@@ -50,6 +50,9 @@ const ProductWrapper = styled(Grid)`
       width: 100%;
       padding-left: 0;
       padding-right: 0;
+    }
+    & ${ProductItemWrapper}:nth-child(2) {
+      display: none;
     }
     & ${ProductItemWrapper}:nth-child(odd) {
       padding-left: 0;
@@ -64,7 +67,6 @@ const ProductWrapper = styled(Grid)`
     }
   }
 `
-
 function Home2() {
   return (
     <PublicTabContentContainer>
@@ -73,25 +75,26 @@ function Home2() {
       </LargeHeading>
       <Spacer mb="56px" />
       <ProductWrapper gridTemplateColumns={['1fr', '1fr', '1fr', '1fr 1fr']}>
-        {/* <ProductItemWrapper>
+        <ProductItemWrapper>
           <Box mb={24}>
             <ListBodyTextWithTitle
               heading={
-                <a href="https://fishcrypto.io" target="_blank" rel="noreferrer" className="underline">
-                  <Type.H4>Fishcrypto</Type.H4>
+                <a href="https://copin.io/" target="_blank" rel="noreferrer" className="underline">
+                  <Type.H4>Copin</Type.H4>
                 </a>
               }
               listText={[
-                'A GameFi / GameNFT project',
-                'Syncing backend data with blockchain',
-                'Decentralized Marketplace, Staking, Crafting',
+                'Data analytics infrastructure for perpetual DEXs',
+                'Explore, analyze, and copy-trade top DEXs',
+                'Designed for the mass adoption of the perpetual DEX narrative',
               ]}
             />
           </Box>
           <div>
-            <Image height={60} src={home_product_1} />
+            <Image src={copin_logo} />
           </div>
-        </ProductItemWrapper> */}
+        </ProductItemWrapper>
+        <ProductItemWrapper></ProductItemWrapper>
         <ProductItemWrapper>
           <Box mb={24}>
             <ListBodyTextWithTitle
