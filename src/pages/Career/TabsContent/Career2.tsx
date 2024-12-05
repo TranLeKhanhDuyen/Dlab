@@ -1,4 +1,3 @@
-import { log } from 'console'
 import parser from 'html-react-parser'
 import { useState } from 'react'
 import { useQuery } from 'react-query'
@@ -59,7 +58,6 @@ function Career2() {
   const modalOpenHandler = () => setIsModalOpen((prev) => !prev)
 
   const { jobId } = useOutletContext<{ jobId: string | null; tabs: TabsType; currentTab: number }>()
-  console.log('jobId:', jobId)
 
   const { data } = useQuery<Career>(['career', jobId], () => {
     if (!jobId) throw new Error('Job ID is required')
