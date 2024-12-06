@@ -58,16 +58,10 @@ function Career2() {
   }
 
   const { jobId } = useOutletContext<{ jobId: string | null; tabs: TabsType; currentTab: number }>()
-  console.log(jobId)
   const { isLoading, error, getCurrentCareer } = useCareers()
 
   const currentCareer = jobId ? getCurrentCareer(jobId) : undefined
-  console.log('curentCareer', currentCareer)
   const heading = currentCareer?.title ? formatTitle(currentCareer.title) : ''
-
-  if (isLoading) {
-    return <div>Loading...</div>
-  }
 
   if (error || !jobId || !currentCareer) {
     return <div>Error loading career details</div>
