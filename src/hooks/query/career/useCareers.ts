@@ -2,7 +2,7 @@ import { useQuery } from 'react-query'
 
 import { getCareersApi } from 'apis/careerApis'
 
-interface Career {
+export interface Career {
   id: string
   title: string
   description: string
@@ -22,5 +22,4 @@ const useCareers = () => {
   return { ...queryResult, getCurrentCareer }
 }
 
-export type { Career }
 export default useCareers
