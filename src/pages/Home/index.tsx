@@ -12,7 +12,7 @@ import HomeTabs from './TabsContent'
 const tabs = [
   { key: 0, name: 'why-us', value: <Trans>Why Us?</Trans> },
   { key: 1, name: 'our-projects', value: <Trans>Our Projects</Trans> },
-  { key: 2, name: 'core-vaue', value: <Trans>Core Value</Trans> },
+  { key: 2, name: 'core-value', value: <Trans>Core Value</Trans> },
   { key: 3, name: 'tech-stack', value: <Trans>Tech Stack</Trans> },
 ]
 
