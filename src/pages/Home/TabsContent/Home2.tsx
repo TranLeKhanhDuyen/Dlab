@@ -11,7 +11,6 @@ import { BodyTextWithTitle } from 'components/common/BodyText'
 import LargeHeading from 'components/common/LargeHeading'
 import { ListBodyTextWithTitle } from 'components/common/ListBodyText'
 import PublicTabContentContainer from 'components/common/PublicTabContentContainer'
-import Spacer from 'components/common/Spacer'
 import { Box, Grid, Image, Type } from 'theme/base'
 import ROUTES from 'utils/routes'
 
@@ -20,13 +19,13 @@ const ProductItemWrapper = styled(Box)`
 `
 const ProductWrapper = styled(Grid)`
   width: 100%;
-  margin-bottom: 48px;
+  margin-bottom: 10px;
   & ${ProductItemWrapper} {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 100%;
-    padding: 32px;
+    padding: 22px;
     border-bottom: 2px solid ${({ theme }) => theme.colors.neutral5};
   }
   & ${ProductItemWrapper}:nth-child(odd) {
@@ -35,10 +34,6 @@ const ProductWrapper = styled(Grid)`
   }
   & ${ProductItemWrapper}:nth-child(even) {
     padding-right: 0;
-  }
-  & ${ProductItemWrapper}:is(:nth-child(1), :nth-child(2)) {
-    padding-top: 0;
-    border-right: none;
   }
   & ${ProductItemWrapper}:is(:nth-last-child(1), :nth-last-child(2)) {
     padding-bottom: 0;
@@ -73,8 +68,7 @@ function Home2() {
       <LargeHeading hasUnderline>
         <Trans>Our Projects</Trans>
       </LargeHeading>
-      <Spacer mb="56px" />
-      <ProductWrapper gridTemplateColumns={['1fr', '1fr', '1fr', '1fr 1fr']}>
+      <ProductWrapper gridTemplateColumns={['1fr', '1fr 1fr']}>
         <ProductItemWrapper>
           <Box mb={24}>
             <ListBodyTextWithTitle
@@ -91,10 +85,9 @@ function Home2() {
             />
           </Box>
           <div>
-            <Image src={copin_logo} />
+            <Image src={copin_logo} height={40} />
           </div>
         </ProductItemWrapper>
-        <ProductItemWrapper></ProductItemWrapper>
         <ProductItemWrapper>
           <Box mb={24}>
             <ListBodyTextWithTitle
@@ -111,7 +104,7 @@ function Home2() {
             />
           </Box>
           <div>
-            <Image src={home_product_2} />
+            <Image src={home_product_2} height={40} />
           </div>
         </ProductItemWrapper>
         <ProductItemWrapper>
@@ -169,21 +162,20 @@ function Home2() {
             <Image height={48} src={truedrop} />
           </div>
         </ProductItemWrapper>
-      </ProductWrapper>
-      <ProductItemWrapper sx={{ borderTop: 'normal', borderColor: 'neutral5' }} py={24}>
-        <Box mb={24}>
+
+        <ProductItemWrapper sx={{ justifyContent: 'flex-start !important', gap: 3 }}>
           <BodyTextWithTitle heading="Brings ideas to life together?" body="Feel free to contact us!" />
-        </Box>
-        <Type.Body>
-          <Box
-            as={Link}
-            to={ROUTES.CONTACT.path}
-            sx={{ fontSize: 'inherit', textDecoration: 'underline', color: 'neutral2' }}
-          >
-            <Trans>Get in touch</Trans> →
-          </Box>
-        </Type.Body>
-      </ProductItemWrapper>
+          <Type.Body>
+            <Box
+              as={Link}
+              to={ROUTES.CONTACT.path}
+              sx={{ fontSize: 'inherit', textDecoration: 'underline', color: 'neutral2' }}
+            >
+              <Trans>Get in touch</Trans> →
+            </Box>
+          </Type.Body>
+        </ProductItemWrapper>
+      </ProductWrapper>
     </PublicTabContentContainer>
   )
 }

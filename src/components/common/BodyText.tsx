@@ -22,7 +22,7 @@ export function BodyTextWithTitle({
   return (
     <>
       <Type.H4 color={color}>{heading}</Type.H4>
-      <Spacer mb="24px" />
+      {/* <Spacer mb="24px" /> */}
       <BodyText maxWidth={maxWidth}>{body}</BodyText>
     </>
   )
