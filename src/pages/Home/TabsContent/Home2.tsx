@@ -11,6 +11,7 @@ import { BodyTextWithTitle } from 'components/common/BodyText'
 import LargeHeading from 'components/common/LargeHeading'
 import { ListBodyTextWithTitle } from 'components/common/ListBodyText'
 import PublicTabContentContainer from 'components/common/PublicTabContentContainer'
+import Spacer from 'components/common/Spacer'
 import { Box, Grid, Image, Type } from 'theme/base'
 import ROUTES from 'utils/routes'
 
@@ -68,6 +69,7 @@ function Home2() {
       <LargeHeading hasUnderline>
         <Trans>Our Projects</Trans>
       </LargeHeading>
+      <Spacer mb="20px" />
       <ProductWrapper gridTemplateColumns={['1fr', '1fr 1fr']}>
         <ProductItemWrapper>
           <Box mb={24}>
